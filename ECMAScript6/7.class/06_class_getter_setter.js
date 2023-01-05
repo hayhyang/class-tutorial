@@ -24,7 +24,7 @@ const foo = new Foo([1,2])
 
 console.log(foo.firstElem)
 
-//
+// setter에 값을 할당하면 메서드가 호출된다.
 foo.firstElem = 100
 console.log(foo.firstElem, foo._arr)
 
